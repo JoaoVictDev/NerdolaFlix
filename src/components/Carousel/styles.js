@@ -52,4 +52,7 @@ export const VideoCardGroupContainer = styled.section`
   min-height: 197px;
   margin-left: 5%;
   margin-bottom: 16px;
-`;
+  &::-webkit-scrollbar-button{
+    background: red;
+  }
+`
